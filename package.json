@@ -1,0 +1,12 @@
+{
+  "name": "pdftotext-wasm",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": {
+    "pdftotext-wasm": "./bin.js"
+  },
+  "scripts": {
+    "build": "docker build -o . ."
+  },
+  "license": "GPLv3"
+}
